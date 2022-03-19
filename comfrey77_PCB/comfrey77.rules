@@ -8,10 +8,10 @@
     (eu.mihosoft.freerouting.autoroute on)
     (postroute on)
     (vias on)
-    (via_costs 100)
+    (via_costs 25)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 4131)
+    (start_pass_no 30053)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -83,9 +83,8 @@
     "Net-(L51-Pad1)" "Net-(L52-Pad1)" "Net-(L53-Pad1)" "Net-(L54-Pad1)" "Net-(L55-Pad1)" "Net-(L56-Pad1)" "Net-(L57-Pad1)" "Net-(L58-Pad1)"
     "Net-(L59-Pad1)" "Net-(L60-Pad1)" "Net-(L61-Pad1)" "Net-(L62-Pad1)" "Net-(L63-Pad1)" "Net-(L64-Pad1)" "Net-(L65-Pad1)" "Net-(L66-Pad1)"
     "Net-(L67-Pad1)" "Net-(L68-Pad1)" "Net-(L69-Pad1)" "Net-(L70-Pad1)" "Net-(L71-Pad1)" "Net-(L72-Pad1)" "Net-(L73-Pad1)" "Net-(L74-Pad1)"
-    "Net-(L75-Pad1)" "Net-(L76-Pad1)" "Net-(L77-Pad1)" Col0 Col1 Col2 Col3 Col4
-    Col5 Col6 Col7 "Net-(U1-Pad24)" Reset "Net-(U1-Pad13)" "Net-(U1-Pad12)" "Net-(U1-Pad11)"
-    "Net-(U1-Pad2)"
+    "Net-(L75-Pad1)" "Net-(L76-Pad1)" Col0 Col1 Col2 Col3 Col4 Col5
+    Col6 Col7 "Net-(U1-Pad24)" "Net-(U1-Pad13)" "Net-(U1-Pad2)" B1 A1 "Net-(U1-Pad22)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
